@@ -1,0 +1,6 @@
+{
+  "appId": "com.aks.nuxtappionic",
+  "appName": "nuxtappionic",
+  "webDir": ".output/public",
+  "bundledWebRuntime": false
+}

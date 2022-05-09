@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">nuxtappionic</string>
+    <string name="title_activity_main">nuxtappionic</string>
+    <string name="package_name">com.aks.nuxtappionic</string>
+    <string name="custom_url_scheme">com.aks.nuxtappionic</string>
+</resources>

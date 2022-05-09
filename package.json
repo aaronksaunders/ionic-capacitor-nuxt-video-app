@@ -1,0 +1,28 @@
+{
+  "name": "nuxtappionic",
+  "version": "0.0.2",
+  "homepage": "",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "ionic:build": "npm run build",
+    "ionic:serve": "npm run start"
+  },
+  "devDependencies": {
+    "@ionic/cli": "6.19.0",
+    "nuxt": "3.0.0-rc.1"
+  },
+  "dependencies": {
+    "@capacitor/android": "3.5.1",
+    "@capacitor/app": "1.1.1",
+    "@capacitor/cli": "3.5.1",
+    "@capacitor/core": "3.5.1",
+    "@capacitor/haptics": "1.1.4",
+    "@capacitor/ios": "3.5.1",
+    "@capacitor/keyboard": "1.2.2",
+    "@capacitor/status-bar": "1.0.8"
+  }
+}

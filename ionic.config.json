@@ -1,0 +1,7 @@
+{
+  "name": "nuxtappionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
