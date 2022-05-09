@@ -1,4 +1,10 @@
 # Ionic Capacitor VueJS Nuxt3 Starter Template
+---
+
+- Blog Post: https://dev.to/aaronksaunders/how-to-build-a-nuxt3-ionic-capacitor-starter-app-4d3k
+- Video: https://youtu.be/tDYPZvjVTcc
+
+---
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
