@@ -10,6 +10,12 @@
       <IonButton @click="router.push('/about')">
         Goto About Page
       </IonButton>
+      <IonButton @click.prevent="doSignOut">
+        SIGN OUT
+      </IonButton>
+      <p>
+        {{user}}
+      </p>
     </IonContent>
   </IonPage>
 </template>
@@ -23,5 +29,20 @@ import {
   IonButton
 } from "@ionic/vue"
 
+definePageMeta({
+  middleware: ["auth"]
+})
+
 const router = useRouter();
+const client = useSupabase()
+
+const user = client.auth.user();
+
+// function 
+const doSignOut = async () => {
+  await client.auth.signOut();
+  router.replace("/login");
+}
+
+
 </script>

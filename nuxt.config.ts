@@ -9,5 +9,11 @@ export default defineNuxtConfig({
         '@ionic/core/css/structure.css',
         '@ionic/core/css/typography.css',
         '@ionic/core/css/ionic.bundle.css',
-    ]
+    ],
+    runtimeConfig: {
+        public: {
+            SUPABASE_URL: process.env.SUPABASE_URL,
+            SUPABASE_ANON_KEY: process.env.SUPABASE_ANON_KEY,
+        }
+    }
 })
